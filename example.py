@@ -1,14 +1,3 @@
-# SSL_Interface
-Interface module for Self-supervised Speech Models
-
-
-## Install
-```
-pip install SSL_Interface
-```
-
-## Usage
-```python
 import torch
 import SSL_Interface
 import SSL_Interface.configs
@@ -51,5 +40,3 @@ print(out.shape)
 out = HConv_Interface(feats)
 print(out.shape)
 # torch.Size([8, 100, 768])
-
-```
